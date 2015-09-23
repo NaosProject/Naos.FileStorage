@@ -1,6 +1,7 @@
 ﻿namespace Naos.FileStorageService.Tests
 {
     using System;
+    using System.Configuration;
     using System.IO;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Web.Storage;
@@ -9,14 +10,16 @@
     [TestClass]
     public class UfsStorageProviderTests
     {
-        private const string SANDBOX_FILE_STORAGE_PATH = @"\\zcloud.com\dvufs\Scratch\Architecture\FileStorageService\";
-
         private IFileStorageProvider storageProvider;
+
+        private string testStoragePath;
 
         [TestInitialize]
         public void Initialize()
         {
             storageProvider = new UfsFileStorageProvider();
+
+            testStoragePath = ConfigurationManager.AppSettings["TestPathForWritingFiles"];
         }
 
         [TestMethod]
@@ -28,7 +31,7 @@
             var uniqueId = Guid.NewGuid().ToString();
             var fullUniqueName = uniqueId + "_" + "Test.txt";
 
-            var pathToWriteTo = SANDBOX_FILE_STORAGE_PATH + fullUniqueName;
+            var pathToWriteTo = testStoragePath + fullUniqueName;
             var task = storageProvider.StoreFile(pathToWriteTo, file).GetAwaiter();
 
             while (!task.IsCompleted)
@@ -58,7 +61,7 @@
             var uniqueId = Guid.NewGuid().ToString();
             var fullUniqueName = uniqueId + "_" + "Test.txt";
 
-            var filePathThatNeedsCreating = SANDBOX_FILE_STORAGE_PATH + "Some_Missing_Path\\" + fullUniqueName;
+            var filePathThatNeedsCreating = testStoragePath + "Some_Missing_Path\\" + fullUniqueName;
             var task = storageProvider.StoreFile(filePathThatNeedsCreating, file).GetAwaiter();
 
             while (!task.IsCompleted)
