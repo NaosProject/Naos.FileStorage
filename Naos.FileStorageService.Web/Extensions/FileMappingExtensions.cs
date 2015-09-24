@@ -1,7 +1,7 @@
-﻿namespace Naos.FileStorageService.Web.Extensions
+﻿namespace Naos.FileStorage.Rest.Extensions
 {
-    using Model;
-    using Repositories.Model;
+    using FileStorage.Contract;
+    using FileStorage.Repositories.Model;
     using Utility;
 
     public static class FileMappingExtensions

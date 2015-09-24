@@ -7,8 +7,8 @@
     <ProjectGuid>{50A457E2-451D-4D33-A01B-A577E93A5561}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Naos.FileStorageService.Model</RootNamespace>
-    <AssemblyName>Naos.FileStorageService.Model</AssemblyName>
+    <RootNamespace>Naos.FileStorage.Contract</RootNamespace>
+    <AssemblyName>Naos.FileStorage.Contract</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>

@@ -1,4 +1,4 @@
-﻿namespace Naos.FileStorageService.Model.Validation
+﻿namespace Naos.FileStorage.Contract.Validation
 {
     using System.ComponentModel.DataAnnotations;
 

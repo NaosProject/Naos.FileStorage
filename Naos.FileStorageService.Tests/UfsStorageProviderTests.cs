@@ -1,11 +1,11 @@
-﻿namespace Naos.FileStorageService.Tests
+﻿namespace Naos.FileStorage.Test
 {
     using System;
     using System.Configuration;
     using System.IO;
+    using FileStorage.Rest.Storage;
+    using FileStorage.Rest.Utility;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using Web.Storage;
-    using Web.Utility;
 
     [TestClass]
     public class UfsStorageProviderTests

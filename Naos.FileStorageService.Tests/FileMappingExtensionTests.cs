@@ -1,9 +1,9 @@
-﻿namespace Naos.FileStorageService.Tests
+﻿namespace Naos.FileStorage.Test
 {
+    using FileStorage.Contract;
+    using FileStorage.Rest.Extensions;
+    using FileStorage.Rest.Utility;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using Model;
-    using Web.Extensions;
-    using Web.Utility;
 
     [TestClass]
     public class FileMappingExtensionTests

@@ -1,9 +1,9 @@
-namespace Naos.FileStorageService.Web
+namespace Naos.FileStorage.Rest
 {
     using System.Configuration;
     using System.Web.Http;
+    using FileStorage.Repositories;
     using Microsoft.Practices.Unity;
-    using Repositories;
     using Storage;
     using Unity.WebApi;
 

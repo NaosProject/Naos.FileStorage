@@ -1,4 +1,4 @@
-﻿namespace Naos.FileStorageService.Web.Controllers
+﻿namespace Naos.FileStorage.Rest.Controllers
 {
     using System;
     using System.Configuration;
@@ -7,10 +7,10 @@
     using System.Threading.Tasks;
     using System.Web.Http;
     using Extensions;
+    using FileStorage.Contract;
+    using FileStorage.Repositories;
+    using FileStorage.Repositories.Model;
     using log4net;
-    using Model;
-    using Repositories;
-    using Repositories.Model;
     using Storage;
     using Utility;
 

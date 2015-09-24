@@ -1,4 +1,4 @@
-﻿namespace Naos.FileStorageService.Web.Storage
+﻿namespace Naos.FileStorage.Rest.Storage
 {
     using System.Threading.Tasks;
 

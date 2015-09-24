@@ -1,4 +1,4 @@
-﻿namespace Naos.FileStorageService.Web.Utility
+﻿namespace Naos.FileStorage.Rest.Utility
 {
     using System;
     using System.Security.Cryptography;

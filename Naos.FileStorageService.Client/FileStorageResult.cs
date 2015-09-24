@@ -1,4 +1,4 @@
-﻿namespace Naos.FileStorageService.Client
+﻿namespace Naos.FileStorage.Proxy
 {
     using System;
     using System.Collections.Generic;

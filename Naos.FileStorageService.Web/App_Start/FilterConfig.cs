@@ -1,4 +1,4 @@
-﻿namespace Naos.FileStorageService.Web
+﻿namespace Naos.FileStorage.Rest
 {
     using System.Web.Mvc;
 

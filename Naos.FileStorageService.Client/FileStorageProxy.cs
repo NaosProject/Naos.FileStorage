@@ -1,16 +1,16 @@
-﻿namespace Naos.FileStorageService.Client
+﻿namespace Naos.FileStorage.Proxy
 {
     using System;
     using System.Net.Http;
     using System.Net.Http.Headers;
     using System.Threading.Tasks;
-    using Model;
+    using Contract;
 
-    public class FileStorageServiceClient
+    public class FileStorageProxy
     {
         private readonly string storageApiUrl;
 
-        public FileStorageServiceClient(string storageApiUrl)
+        public FileStorageProxy(string storageApiUrl)
         {
             this.storageApiUrl = storageApiUrl;
         }

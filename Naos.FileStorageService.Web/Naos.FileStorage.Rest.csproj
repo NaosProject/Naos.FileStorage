@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Naos.FileStorageService.Web</RootNamespace>
-    <AssemblyName>Naos.FileStorageService.Web</AssemblyName>
+    <RootNamespace>Naos.FileStorage.Rest</RootNamespace>
+    <AssemblyName>Naos.FileStorage.Rest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -169,13 +169,13 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Naos.FileStorageService.Model\Naos.FileStorageService.Model.csproj">
+    <ProjectReference Include="..\Naos.FileStorageService.Model\Naos.FileStorage.Contract.csproj">
       <Project>{50A457E2-451D-4D33-A01B-A577E93A5561}</Project>
-      <Name>Naos.FileStorageService.Model</Name>
+      <Name>Naos.FileStorage.Contract</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Naos.FileStorageService.Repositories\Naos.FileStorageService.Repositories.csproj">
+    <ProjectReference Include="..\Naos.FileStorageService.Repositories\Naos.FileStorage.Repositories.csproj">
       <Project>{4f0edffd-772e-4b81-a243-86f3af914b42}</Project>
-      <Name>Naos.FileStorageService.Repositories</Name>
+      <Name>Naos.FileStorage.Repositories</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
