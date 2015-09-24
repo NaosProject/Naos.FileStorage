@@ -61,7 +61,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Naos.FileStorageService.Model\Naos.FileStorage.Contract.csproj">
+    <ProjectReference Include="..\Naos.FileStorage.Contract\Naos.FileStorage.Contract.csproj">
       <Project>{50a457e2-451d-4d33-a01b-a577e93a5561}</Project>
       <Name>Naos.FileStorage.Contract</Name>
     </ProjectReference>

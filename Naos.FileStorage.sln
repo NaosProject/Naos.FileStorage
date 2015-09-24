@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorage.Rest", "Naos.FileStorageService.Web\Naos.FileStorage.Rest.csproj", "{AC061BFB-21DB-41E6-8871-843938EE4D32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorage.Contract", "Naos.FileStorage.Contract\Naos.FileStorage.Contract.csproj", "{50A457E2-451D-4D33-A01B-A577E93A5561}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorage.Contract", "Naos.FileStorageService.Model\Naos.FileStorage.Contract.csproj", "{50A457E2-451D-4D33-A01B-A577E93A5561}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorage.Proxy", "Naos.FileStorage.Proxy\Naos.FileStorage.Proxy.csproj", "{B3BD8C90-7702-43EC-82B9-EB3C68997D49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorage.Test", "Naos.FileStorageService.Tests\Naos.FileStorage.Test.csproj", "{A9C3869B-0466-4360-8D79-6F2D1BEB6B4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorage.Repositories", "Naos.FileStorage.Repositories\Naos.FileStorage.Repositories.csproj", "{4F0EDFFD-772E-4B81-A243-86F3AF914B42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorage.Proxy", "Naos.FileStorageService.Client\Naos.FileStorage.Proxy.csproj", "{B3BD8C90-7702-43EC-82B9-EB3C68997D49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorage.Rest", "Naos.FileStorage.Rest\Naos.FileStorage.Rest.csproj", "{AC061BFB-21DB-41E6-8871-843938EE4D32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorage.Repositories", "Naos.FileStorageService.Repositories\Naos.FileStorage.Repositories.csproj", "{4F0EDFFD-772E-4B81-A243-86F3AF914B42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorage.Test", "Naos.FileStorage.Test\Naos.FileStorage.Test.csproj", "{A9C3869B-0466-4360-8D79-6F2D1BEB6B4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,18 +19,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AC061BFB-21DB-41E6-8871-843938EE4D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC061BFB-21DB-41E6-8871-843938EE4D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC061BFB-21DB-41E6-8871-843938EE4D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC061BFB-21DB-41E6-8871-843938EE4D32}.Release|Any CPU.Build.0 = Release|Any CPU
 		{50A457E2-451D-4D33-A01B-A577E93A5561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{50A457E2-451D-4D33-A01B-A577E93A5561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50A457E2-451D-4D33-A01B-A577E93A5561}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50A457E2-451D-4D33-A01B-A577E93A5561}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A9C3869B-0466-4360-8D79-6F2D1BEB6B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9C3869B-0466-4360-8D79-6F2D1BEB6B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9C3869B-0466-4360-8D79-6F2D1BEB6B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9C3869B-0466-4360-8D79-6F2D1BEB6B4D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B3BD8C90-7702-43EC-82B9-EB3C68997D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B3BD8C90-7702-43EC-82B9-EB3C68997D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3BD8C90-7702-43EC-82B9-EB3C68997D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +31,14 @@ Global
 		{4F0EDFFD-772E-4B81-A243-86F3AF914B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F0EDFFD-772E-4B81-A243-86F3AF914B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F0EDFFD-772E-4B81-A243-86F3AF914B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC061BFB-21DB-41E6-8871-843938EE4D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC061BFB-21DB-41E6-8871-843938EE4D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC061BFB-21DB-41E6-8871-843938EE4D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC061BFB-21DB-41E6-8871-843938EE4D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C3869B-0466-4360-8D79-6F2D1BEB6B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C3869B-0466-4360-8D79-6F2D1BEB6B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C3869B-0466-4360-8D79-6F2D1BEB6B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C3869B-0466-4360-8D79-6F2D1BEB6B4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
