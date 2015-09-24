@@ -68,9 +68,9 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Naos.FileStorage.Repositories\Naos.FileStorage.Repositories.csproj">
+    <ProjectReference Include="..\Naos.FileStorage.Repositories\Naos.FileStorageService.Repositories.csproj">
       <Project>{4F0EDFFD-772E-4B81-A243-86F3AF914B42}</Project>
-      <Name>Naos.FileStorage.Repositories</Name>
+      <Name>Naos.FileStorageService.Repositories</Name>
     </ProjectReference>
     <ProjectReference Include="..\Naos.FileStorageService.Model\Naos.FileStorageService.Model.csproj">
       <Project>{50A457E2-451D-4D33-A01B-A577E93A5561}</Project>
