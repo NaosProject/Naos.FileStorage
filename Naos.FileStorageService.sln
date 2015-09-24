@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorageService.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorageService.Client", "Naos.FileStorageService.Client\Naos.FileStorageService.Client.csproj", "{B3BD8C90-7702-43EC-82B9-EB3C68997D49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorageService.Repositories", "Naos.FileStorage.Repositories\Naos.FileStorageService.Repositories.csproj", "{4F0EDFFD-772E-4B81-A243-86F3AF914B42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naos.FileStorageService.Repositories", "Naos.FileStorageService.Repositories\Naos.FileStorageService.Repositories.csproj", "{4F0EDFFD-772E-4B81-A243-86F3AF914B42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

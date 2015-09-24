@@ -3,7 +3,7 @@ namespace Naos.FileStorageService.Web
     using System.Configuration;
     using System.Web.Http;
     using Microsoft.Practices.Unity;
-    using Noas.FileStorage.Repositories;
+    using Repositories;
     using Storage;
     using Unity.WebApi;
 

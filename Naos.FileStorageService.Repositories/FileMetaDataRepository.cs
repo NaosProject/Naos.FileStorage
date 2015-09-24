@@ -1,4 +1,4 @@
-﻿namespace Noas.FileStorage.Repositories
+﻿namespace Naos.FileStorageService.Repositories
 {
     using System;
     using System.Data;

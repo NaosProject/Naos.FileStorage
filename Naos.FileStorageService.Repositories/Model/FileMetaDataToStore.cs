@@ -1,4 +1,4 @@
-﻿namespace Noas.FileStorage.Repositories.Model
+﻿namespace Naos.FileStorageService.Repositories.Model
 {
     public class FileMetaDataToStore
     {

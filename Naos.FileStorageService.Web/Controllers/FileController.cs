@@ -9,8 +9,8 @@
     using Extensions;
     using log4net;
     using Model;
-    using Noas.FileStorage.Repositories;
-    using Noas.FileStorage.Repositories.Model;
+    using Repositories;
+    using Repositories.Model;
     using Storage;
     using Utility;
 

@@ -7,8 +7,8 @@
     <ProjectGuid>{4F0EDFFD-772E-4B81-A243-86F3AF914B42}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Noas.FileStorageService.Repositories</RootNamespace>
-    <AssemblyName>Noas.FileStorageService.Repositories</AssemblyName>
+    <RootNamespace>Naos.FileStorageService.Repositories</RootNamespace>
+    <AssemblyName>Naos.FileStorageService.Repositories</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>
